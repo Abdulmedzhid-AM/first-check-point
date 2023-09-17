@@ -5,6 +5,10 @@ body{
     background-color: rgb(163, 167, 170);
     color: rgb(128, 124, 124);
 }
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
 .container{
     width: 700px;
     margin: auto;
@@ -14,13 +18,13 @@ img{
     width: 100px;
     border-radius: 30px;
 }
-.content{
+.card{
     text-align: center;
     padding: 30px;
     background-color: #fff;
+    margin-bottom: 30px;
 }
 .call-me{
-    text-decoration: none;
     background-color: blueviolet;
     color: #fff;
     padding: 10px;
@@ -32,18 +36,11 @@ img{
 h2{
     color: rgb(185, 245, 107);
 }
-.sub-content{
-    text-align: center;
-    padding: 10px;
-    background-color: #fff;
-    margin-top: 30px;
-}
-ul{
+.card-ul{
     display: flex;
     justify-content: center;
-
 }
-li{
+.card-li{
     list-style-type: none;
 }
 i{
