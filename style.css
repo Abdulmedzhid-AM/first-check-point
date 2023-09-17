@@ -3,17 +3,56 @@ body{
     font-size: 20px;
     font-weight: 500;
     background-color: rgb(163, 167, 170);
+    color: rgb(128, 124, 124);
+}
+.container{
+    width: 700px;
+    margin: auto;
+    margin-top: 70px;
 }
 img{
     width: 100px;
+    border-radius: 30px;
 }
-a{
+.content{
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+}
+.call-me{
     text-decoration: none;
+    background-color: blueviolet;
     color: #fff;
+    padding: 10px;
+    border-radius: 5px;
 }
-a:hover{
-    background-color: silver;
+.call-me:hover{
+    background-color: black;
 }
 h2{
     color: rgb(185, 245, 107);
+}
+.sub-content{
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    margin-top: 30px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+
+}
+li{
+    list-style-type: none;
+}
+i{
+    font-size: 50px;
+    margin: 10px;
+    color: silver;
+}
+i:hover{
+    color:black;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    transform: scale(1.5);
 }
