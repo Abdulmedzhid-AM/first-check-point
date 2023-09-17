@@ -1,0 +1,19 @@
+body{
+    font-family: 'Titillium Web';
+    font-size: 20px;
+    font-weight: 500;
+    background-color: rgb(163, 167, 170);
+}
+img{
+    width: 100px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    background-color: silver;
+}
+h2{
+    color: rgb(185, 245, 107);
+}
